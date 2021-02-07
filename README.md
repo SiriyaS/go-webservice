@@ -11,6 +11,7 @@ $ go get github.com/go-sql-driver/mysql
 ```
 ## Try it out
 ※ Clone this project
+####
 ※ Create database and table `products` and `product_types`
 ```
 CREATE TABLE product_types (
@@ -59,7 +60,7 @@ PUT     /update     --> to update product by product_id (pass by query string)
 DELETE  /delete     --> to delete product by product_id (pass by query string)
 ```
 ## File Structure
-```sh
+```
 webservice/
     ├─── config/
     │       └─── config.go      read config from development.yaml
